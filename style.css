@@ -1,0 +1,9 @@
+.show {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px;
+  transition: ease-in-out;
+  translate: 10px;
+  position: absolute;
+  top:3rem;
+}
