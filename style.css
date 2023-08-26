@@ -5,5 +5,7 @@
   transition: ease-in-out;
   translate: 10px;
   position: absolute;
-  top:3rem;
+  top: 10px;
+  z-index: 1000%;
+  background-color: brown;
 }
