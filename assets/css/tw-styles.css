@@ -659,6 +659,78 @@ video {
   top: -24rem;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
+.right-1\/2 {
+  right: 50%;
+}
+
+.top-1\/3 {
+  top: 33.333333%;
+}
+
+.top-2\/3 {
+  top: 66.666667%;
+}
+
+.right-2\/3 {
+  right: 66.666667%;
+}
+
+.right-1\/3 {
+  right: 33.333333%;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[50\] {
+  right: 50;
+}
+
+.right-\[50p\] {
+  right: 50p;
+}
+
+.right-\[50px\] {
+  right: 50px;
+}
+
+.right-\[10px\] {
+  right: 10px;
+}
+
+.right-\[100px\] {
+  right: 100px;
+}
+
+.right-\[500px\] {
+  right: 500px;
+}
+
+.right-\[00px\] {
+  right: 00px;
+}
+
+.right-\[800px\] {
+  right: 800px;
+}
+
+.right-\[700px\] {
+  right: 700px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -716,6 +788,41 @@ video {
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
+}
+
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .mb-10 {
@@ -845,6 +952,18 @@ video {
   height: 6rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[4px\] {
+  height: 4px;
+}
+
+.h-\[1px\] {
+  height: 1px;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -883,6 +1002,10 @@ video {
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-fit {
@@ -2056,8 +2179,17 @@ video {
   padding-right: 2.5rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -2646,6 +2778,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:top-2\/3 {
+    top: 66.666667%;
+  }
+
+  .md\:right-\[700px\] {
+    right: 700px;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
