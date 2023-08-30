@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/tw-styles.css" />
     <title>Fasco</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0430942aab.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,16 +16,18 @@
     <header class=" container mx-auto px-14">
 
         <div class="flex flex-wrap items-center justify-between">
-            <a href="">FASCO</a>
-            <ul id="menuContainer" class="absolute flex-col lg:flex-row lg:static overflow-hidden flex lg:flex-wrap lg:items-center lg:gap-24" style="  transition: ease-in-out 3s; top: -500px;  z-index: 100; gap: 60px; display: flex;
+            <a class="text-2xl font-semibold tracking-widest" href="">FASCO</a>
+            <ul id="menuContainer"
+                class="absolute flex-col lg:flex-row lg:static overflow-hidden flex lg:flex-wrap lg:items-center lg:gap-24"
+                style="  transition: ease-in-out 3s; top: -500px;  z-index: 100; gap: 60px; display: flex;
 
 ">
                 <li><a href="">Home</a></li>
                 <li> <a href="">Deal</a></li>
                 <li> <a href="">New Arrivals</a> </li>
                 <li><a href="">Packages</a></li>
-                <li><a href="">Sign in</a></li>
-                <li class="bg-black text-white py-3 px-6 rounded-xl"><a href="">Sign Up</a></li>
+                <li id="signIn"><a href="./login.html">Sign in</a></li>
+                <li  id="signUp" class="bg-black text-white py-3 px-6 rounded-xl"><a href="./login.html"> Sign Up</a> </li>
             </ul>
 
             <button id="menuButton" class="block lg:hidden z-120">Menu</button>
@@ -264,11 +267,11 @@
                 <div class="grid gap-5">
                     <p class="">"You won't regret it. I would like to personally
                         thank you for your outstanding product. Absolutely wonderful!"</p>
-                        <img src="./assets/images/stars.png" alt="">
+                    <img src="./assets/images/stars.png" alt="">
 
-                        <p class="bg-black w-72 h-0.5"></p>
+                    <p class="bg-black w-72 h-0.5"></p>
 
-                        <p class="text-5xl">James K.</p>
+                    <p class="text-5xl">James K.</p>
                 </div>
             </div>
 
@@ -284,14 +287,16 @@
             <img src="./assets/images/ftimage.png" alt="">
             <div class=" flex flex-col gap-5 bg-white drop-shadow-2xl p-5 ">
                 <h1 class="text-3xl text-center">Subscribe To Our Newsletter</h1>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis
+                    ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
                 <p>michael@ymail.com</p>
             </div>
             <img src="./assets/images/ftimage1.png" alt="">
         </div>
 
-            <button class="bg-black text-white px-4 py-2 rounded-md md:absolute md:top-2/3 md:right-[700px]">Subscribe Now</button>
-        
+        <button class="bg-black text-white px-4 py-2 rounded-md md:absolute md:top-2/3 md:right-[700px]">Subscribe
+            Now</button>
+
 
 
     </section>
@@ -300,7 +305,8 @@
         <div class="w-full h-[1px] bg-black"></div>
         <div class="flex flex-wrap items-center justify-between pt-5 ">
             <a href="">FASCO</a>
-            <ul class="absolute flex-col lg:flex-row lg:static overflow-hidden flex lg:flex-wrap lg:items-center lg:gap-24">
+            <ul
+                class="absolute flex-col lg:flex-row lg:static overflow-hidden flex lg:flex-wrap lg:items-center lg:gap-24">
                 <li><a href="">Support Center</a></li>
                 <li> <a href="">Invoicing</a></li>
                 <li> <a href="">Contracts</a> </li>
@@ -314,6 +320,8 @@
         <p class="text-center py-5">Copyright © 2022 FASCO . All Rights Reseved.</p>
 
     </footer>
+
+    
 
     <script src="./script.js"></script>
 </body>

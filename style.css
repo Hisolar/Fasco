@@ -10,6 +10,19 @@
   
   }
   
+  .signit{
+    background-color: aquamarine;
+    height: 100px;
+    width: 400px;
+  }
 }
 
 
+.hide{
+  display: none !important;
+}
+
+
+.flexIt{
+  display: flex !important;
+}
